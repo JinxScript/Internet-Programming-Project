@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="../styles/assignStudent.css" />
+  </head>
+  <body>
+    <div class="omolemo-system-admin">
+      <!-- Your existing HTML code here -->
+
+      <!-- Add a form for entering student details -->
+      <div class="student-details-form">
+        <h2>Student Details</h2>
+        <form>
+          <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" placeholder="Enter First Name" />
+          </div>
+
+          <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" placeholder="Enter Last Name" />
+          </div>
+
+          <div class="form-group">
+            <label for="student-id">Student ID Number</label>
+            <input type="text" id="student-id" name="student-id" placeholder="e.g. 22000000" />
+          </div>
+
+          <div class="form-group">
+            <label for="year-level">Year Level</label>
+            <input type="text" id="year-level" name="year-level" placeholder="Enter Year Level" />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="e.g: 22000000@studentmail.biust.ac.bw" />
+          </div>
+
+          <div class="form-group">
+            <label for="degree-program">Degree Program</label>
+            <select id="degree-program" name="degree-program">
+              <option value="option1">Degree Option 1</option>
+              <option value="option2">Degree Option 2</option>
+              <option value="option3">Degree Option 3</option>
+              <!-- Add more options as needed -->
+            </select>
+            <input type="text" id="degree-program-text" name="degree-program-text" placeholder="Enter Degree Program">
+          </div>
+
+          <button type="submit">Add Student</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="../styles/addModulescss" />
+  </head>
+  <body>
+    <div class="omolemo-system-admin">
+      <div class="div">
+        <div class="overlap">
+          <img class="cliparted" src="img/cliparted-1.png" />
+          <div class="text-wrapper">SmartAttend</div>
+        </div>
+        <div class="overlap-group">
+          <div class="overlap-2">
+            <div class="breadcrumb">
+              <div class="overlap-group-2">
+                <div class="overlap-3">
+                  <div class="home"><div class="text-wrapper-2">Home</div></div>
+                  <div class="text-wrapper-3">/</div>
+                </div>
+                <div class="hr-module"><div class="add-modules">Add&nbsp;&nbsp;Modules</div></div>
+              </div>
+            </div>
+            <div class="overlap-4">
+              <div class="text-wrapper-4">System Admin</div>
+              <div class="group">
+                <div class="overlap-5">
+                  <div class="div-wrapper"><div class="text-wrapper-5">Dashboard</div></div>
+                  <div class="overlap-group-3">
+                    <div class="dashboard">
+                      <img class="users" src="img/users.svg" />
+                      <div class="text-wrapper-6">Assign lecturers</div>
+                    </div>
+                    <div class="rectangle"></div>
+                    <div class="text-wrapper-7">Assign Students</div>
+                    <img class="vector" src="img/image.svg" />
+                  </div>
+                  <div class="attendance-report">
+                    <img class="file-text" src="img/file-text.svg" />
+                    <div class="text-wrapper-6">Add Modules</div>
+                  </div>
+                </div>
+              </div>
+              <img class="log-out" src="img/log-out.svg" />
+            </div>
+
+            
+            <!-- Start of the Form for Adding Modules -->
+            <form class="add-modules-form">
+              <div class="text-wrapper-8">Module</div>
+              <div class="overlap-6">
+                <input type="text" id="module" name="module" placeholder="e.g MATH101" />
+              </div>
+              <div class="text-wrapper-10">Module Semester</div>
+              <div class="overlap-7">
+                <select id="module-semester" name="module-semester">
+                  <option value="Semester 1">Semester 1</option>
+                  <option value="Semester 2">Semester 2</option>
+                  <option value="Please Select">Please Select</option>
+                  <!-- Add more semester options as needed -->
+                </select>
+              </div>
+              <div class="text-wrapper-12">Module Code</div>
+              <div class="overlap-wrapper">
+                <div class="overlap-8"><input type="text" id="module-code" name="module-code" /></div>
+              </div>
+              <div class="text-wrapper-15">Module Title</div>
+              <div class="show-3"><input type="text" id="module-title" name="module-title" /></div>
+              <div class="text-wrapper-16">Module Credits</div>
+              <div class="show-4"><input type="number" id="module-credits" name="module-credits" /></div>
+              <div class="group-2">
+                <div class="overlap-10">
+                  <button type="submit" class="button"><div class="text-wrapper-17">ADD</div></button>
+                  <button type="submit" class="button"><div class="text-wrapper-17">EDIT</div></button>
+                  <button type="submit" class="button"><div class="text-wrapper-17">DELETE</div></button>
+                </div>
+              </div>
+            </form>
+            <!-- End of the Form for Adding Modules -->
+          </div>
+    
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
